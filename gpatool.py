@@ -122,7 +122,7 @@ def qhours(chours):
 	return chours * scalar
 
 def sign(value):
-	if(int(value) < 0):
+	if(float(value) < 0):
 		return str(value)
 	else:
 		return "+" + str(value)
